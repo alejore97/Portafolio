@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root{
-    --color-primario: black;
+    --color-primariolack;
     --color-secundario: #f6f6f6;
     --color--terciario: cyan;
 
@@ -15,7 +15,7 @@
 }
 
 body{
-    background-image: url("img/fondo8.jpg");
+    background-color: black;
     color: var(--color-secundario);
     box-sizing: border-box;  
     background-size: 100% 100%; 
@@ -32,7 +32,7 @@ body{
 
 .header__link{
     font-family: var(--fuete--monserrat);
-    font-size: 24xp;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--color--terciario);
     text-decoration: none;
@@ -45,7 +45,7 @@ body{
         margin-left: 20%;
 
          .presentacion-contenido{
-            width: 615px;
+            width: 50%;
             display: flex;
             flex-direction: column;
             gap: 40px;
@@ -55,7 +55,7 @@ body{
         .titulo-principal{
             color: var(--color-secundario);
             font-family: var(--fuente--krona);
-            font-size: 36px;
+            font-size: 2.25rem;
             text-align:left
         }   
 
@@ -66,7 +66,7 @@ body{
         .presentacion-texto {
             color: var(--color-secundario);
             font-family: var(--fuente--krona);
-            font-size: 24px;        
+            font-size: 1.5rem;        
         }
     
    
@@ -80,18 +80,18 @@ body{
 
         .subtitulo{
             font-family: var(--fuente--krona);
-            font-size: 24px;
+            font-size: 1.5rem;
             font-weight: 400;
         }
 
         .paginas{
-            width: 378px;
+            width: 50%;
             background-color:transparent;
             color: var(--color-secundario);
             padding: 21.5px 0;
             border-radius: 8px;
             font-family: var(--fuete--monserrat);
-            font-size: 24px;
+            font-size: 1.5rem;
             font-weight: 600;
             text-decoration: none;
             border: 2px solid var(--color--terciario);
@@ -129,19 +129,21 @@ body{
         }
 
         .hombre-programando{
-            width: 488px    ;
+            width: 40%;
             height: 550px;
             top: 235px;
             left: 1030px;
-            margin-right: 20%;
+            margin-left: 5%;
+            margin-right: 10%;
             border-radius: 16px;   
          }
 
         .titulo-principal__sobreMI{
             color: var(--color--terciario);
             font-family: var(--fuente--krona);
-            font-size: 36px;
+            font-size: 2.25rem;
             text-align:left
+            
         } 
 
 }
@@ -152,9 +154,7 @@ body{
     color: var(--color-primario);
     text-align: center;
     font-family: var(--fuete--monserrat);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
-
-
 
