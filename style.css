@@ -53,10 +53,8 @@ body{
     
 
         .titulo-principal{
-            color: var(--color-secundario);
             font-family: var(--fuente--krona);
             font-size: 2.25rem;
-            text-align:left
         }   
 
         .titulo-destaque {
@@ -64,9 +62,8 @@ body{
         }            
 
         .presentacion-texto {
-            color: var(--color-secundario);
             font-family: var(--fuente--krona);
-            font-size: 1.5rem;        
+            font-size: 1.5rem;       
         }
     
    
@@ -129,7 +126,7 @@ body{
         }
 
         .hombre-programando{
-            width: 40%;
+            width: 50%;
             height: 550px;
             top: 235px;
             left: 1030px;
@@ -156,5 +153,38 @@ body{
     font-family: var(--fuete--monserrat);
     font-size: 1.5rem;
     font-weight: 400;
+}
+
+@media (max-width:1200px){
+
+    .header{
+        padding: 5% 23% 0 10%;
+    }
+
+    .header__menu{
+        justify-content: center;
+    }
+
+    .presentacion{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .presentacion-contenido{
+        width: auto;
+    }
+
+    .titulo-principal{
+        width: 150%;
+    }
+
+    .presentacion-texto{
+        width: 150%;
+    }
+
+
+    
+
+
 }
 
